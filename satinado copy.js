@@ -36,7 +36,11 @@ function searchProducts() {
   crearOptions(select1, results);
 
   // Establecer el tamaño del select para que muestre todas las opciones
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 0a2b18e555a36e3a229a8d036995e78d8fc277fd
   // Si se encuentra una referencia, seleccionarla automáticamente
   if (results.length > 0) {
     select1.value = results[0].referencia;
@@ -55,7 +59,11 @@ function selectReference(reference) {
   crearOptions(select1, guanteJson);
 
   // Establecer el tamaño del select para que muestre todas las opciones
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 0a2b18e555a36e3a229a8d036995e78d8fc277fd
 }
 
 function crearOptions(select, lista) {
